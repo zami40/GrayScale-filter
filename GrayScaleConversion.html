@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gray Scale conversion</title>
+	<link rel="stylesheet" href="D:\Coursera\dukeUni\SliderPracticse.css">
+	<script src ="D:\Coursera\dukeUni\SliderPracticse.js"></script>
+</head>
+<body>
+<h1>Convert image to grayscale</h1>
+
+<canvas id="c1"></canvas>
+<canvas id="c2"></canvas>
+
+<p>
+<input type="file" accept="image/*" id="fInput" multiple="false" onchange="upload()">
+</p>
+<p>
+<input type="button" id="gray" onclick="makeGray()" value="Make Gray">
+<input type="button" value="Clear Canvases" onclick="clearCanvas()" > 
+</p>
+
+<script src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+
+</body>
+</html>
